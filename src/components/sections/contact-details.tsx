@@ -38,8 +38,8 @@ export function ContactDetails() {
         <p className="eyebrow text-primary">Email & Website</p>
         <div className="mt-4 grid grid-cols-[1.25rem_1fr] gap-x-3 gap-y-3 text-sm">
           <Mail size={16} className="mt-0.5 shrink-0 text-primary" />
-          <a href="mailto:thulirinfra.construction@gmail.com" className="break-all">
-            thulirinfra.construction@gmail.com
+          <a href="mailto:thulirinfraconstruction@gmail.com" className="break-all">
+            thulirinfraconstruction@gmail.com
           </a>
           <ArrowRight size={16} className="mt-0.5 shrink-0 text-primary" />
           <a href="https://thulirinfra.com">thulirinfra.com</a>

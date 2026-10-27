@@ -60,8 +60,8 @@ export function Footer() {
               <Phone size={15} className="mt-1 shrink-0 text-primary" />
               <a href="tel:+919790226284">+91 97902 26284</a>
               <Mail size={15} className="mt-1 shrink-0 text-primary" />
-              <a href="mailto:thulirinfra.construction@gmail.com" className="break-all">
-                thulirinfra.construction@gmail.com
+              <a href="mailto:thulirinfraconstruction@gmail.com" className="break-all">
+                thulirinfraconstruction@gmail.com
               </a>
             </div>
             <p className="eyebrow mt-8 text-primary-foreground/70">Our Office</p>

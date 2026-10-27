@@ -76,7 +76,9 @@ export function ContactForm() {
     } catch (err: unknown) {
       console.error("Enquiry submission failed:", err);
       setStatus("error");
-      setStatusMessage("Network or server connection error. Please try again or contact us directly.");
+      setStatusMessage(
+        "Network or server connection error. Please try again or contact us directly.",
+      );
     } finally {
       setIsSubmitting(false);
     }
@@ -109,13 +111,14 @@ export function ContactForm() {
             <h3 className="font-display text-2xl md:text-3xl">Enquiry Received!</h3>
           </div>
           <p className="mt-4 text-base leading-7 text-muted-foreground">
-            Thank you, <strong className="text-foreground">{lastSubmission?.name}</strong>. Your enquiry
-            for <strong className="text-foreground">{lastSubmission?.service}</strong> has been sent to{" "}
+            Thank you, <strong className="text-foreground">{lastSubmission?.name}</strong>. Your
+            enquiry for <strong className="text-foreground">{lastSubmission?.service}</strong> has
+            been sent to{" "}
             <span className="font-medium text-foreground">thulirinfraconstruction@gmail.com</span>.
           </p>
           <p className="mt-2 text-sm text-muted-foreground">
-            Our qualified civil engineers will review your project details and contact you shortly at{" "}
-            <strong className="text-foreground">{lastSubmission?.mobile}</strong>.
+            Our qualified civil engineers will review your project details and contact you shortly
+            at <strong className="text-foreground">{lastSubmission?.mobile}</strong>.
           </p>
           <div className="mt-8 flex flex-wrap gap-4 border-t border-border pt-6">
             <Button
@@ -280,8 +283,8 @@ export function ContactForm() {
             <Check size={15} className="mt-0.5 shrink-0 text-primary" />
             <p>
               Your enquiry is delivered directly to our engineering team at{" "}
-              <span className="font-medium text-foreground">thulirinfraconstruction@gmail.com</span>. We
-              ensure complete confidentiality of your information.
+              <span className="font-medium text-foreground">thulirinfraconstruction@gmail.com</span>
+              . We ensure complete confidentiality of your information.
             </p>
           </div>
         </form>

@@ -5,14 +5,14 @@ import tsConfigPaths from "vite-tsconfig-paths";
 import viteReact from "@vitejs/plugin-react";
 import { nitro } from "nitro/vite";
 
-export default defineConfig(({ command }) => ({
+export default defineConfig({
   plugins: [
     tsConfigPaths({ projects: ["./tsconfig.json"] }),
     tailwindcss(),
     tanstackStart({
       server: { entry: "server" },
     }),
+    nitro(),
     viteReact(),
-    ...(command === "build" ? [nitro()] : []),
   ],
-}));
+});

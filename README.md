@@ -1,4 +1,4 @@
-# Thulir Infra
+# Thulir Infra Construction
 
 **Thulir Infra** — Civil engineering, architectural planning, residential and commercial construction, DTCP and statutory plan approvals, Project Management Consultancy (PMC), and bank estimation services across Madurai, Virudhunagar, Namakkal, Trichy, Salem, and surrounding regions in Tamil Nadu.
 
